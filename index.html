@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immaculate</title>
+    <style>
+     body{
+        background: linear-gradient(75deg, red, blue, );
+        background-color: rebeccapurple;
+    }
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 560px;
+        width: 350px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border-radius: 5px;
+    }
+    .front-face, .back-face{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        backface-visibility: hidden;
+        border-radius: 5px;
+        box-shadow: 0 2px 3px rgba(0,0,0,.2);
+        transition: transform .4s linear;
+    }
+    .cover{
+        background-color: rgb(161, 50, 161);
+        height: 115px;
+        width: 100%;
+        /* border-radius: 5px; */
+    }
+    .profile{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background: white;
+        margin-top: 10px;
+        padding: 5px;
+        
+    }
+    .name{
+        font-size: 30px;
+        padding-top: 60px;
+        font-family: monospace;
+    }
+    .tag{
+        padding: 5px 0;
+        font-family: monospace;
+    }
+    .about{
+        margin-top: 10px;
+        padding: 0px 35px;
+        text-align: justify;
+        font-size: 15px;
+        font-family: monospace;
+        
+
+    }
+    a{
+        text-decoration: none;
+        background-color: blueviolet;
+        padding: 10px;
+        color: white;
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    </style>
+</head>
+
+<body>
+    <img src="czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zODAtMDIuanBn" alt="">
+    <div class="container">
+        
+        <div class="front-face">
+            
+            <div class="cover">
+                <img src="./DSC_0874.JPG.jpg" alt="" class="profile">
+            </div>
+            <div class="name">IMMACULATE</div>
+            <div class="tag">Happy birthday</div>
+            <p class="about">Happy Birthday, Immaculata! On this special day, I want to celebrate you and the incredible person you are. Your kindness, strength, and beauty shine brightly, bringing joy to all who know you. May this day be filled with love, laughter, and wonderful surprises. You deserve the world and more. Cheers to you, today and always</p>
+            <a href="./mes.html">CLICK ME !</a>
+        </div>
+    </div>
+</body>
+</html>
